@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IFNews – Detalhe da Notícia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://febitec.santana.ifsul.edu.br/docs/logos/ifb.png" alt="Logo IFSul">
+      <h1>IFNews</h1>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          Categorias
+          <ul class="submenu">
+            <li><a href="esportes.html">Esportes</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="institucional.html">Institucional</a></li>
+            <li><a href="premiacoes.html">Premiações</a></li>
+            <li><a href="envie.html">Envie uma Notícia</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="header-spacer"></div>
+    <section class="noticia-detalhe">
+      <div class="imagens">
+        <img id="imagem-principal"
+             src="https://www.ifsul.edu.br/images/conteudo/2025/Jun/MATERIAA_1.jpg"
+             alt="Imagem Principal">
+        <div class="miniaturas">
+          <img src="https://www.ifsul.edu.br/images/conteudo/2025/Jun/DSC_0994.jpg"
+               alt="Miniatura 1" onclick="trocarImagem(this.src)">
+          <img src="https://www.ifsul.edu.br/images/conteudo/2024/12-Dez/DSC_0133.jpg"
+               alt="Miniatura 2" onclick="trocarImagem(this.src)">
+          <img src="https://www.ifsul.edu.br/images/conteudo/2024/09-Set/MATERIAA.jpg"
+               alt="Miniatura 3" onclick="trocarImagem(this.src)">
+        </div>
+      </div>
+      <div class="texto">
+        <h2>Vestibular de Inverno 2025/2: Sorteio eletrônico</h2>
+        <p><em>24 de Junho de 2025</em></p>
+        <p>
+          O sorteio eletrônico que contempla vagas para os cursos técnicos nas formas
+          concomitante e subsequente do Vestibular de Inverno 2025/2 do IFSul foi
+          transmitido ao vivo pelo canal IFSul Transmissões. Participaram candidatos de
+          todos os câmpus, garantindo transparência e agilidade no processo.
+        </p>
+        <p>
+          Além disso, os participantes puderam acompanhar o chat ao vivo e esclarecer
+          dúvidas diretamente com a coordenação do concurso.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 IFNews - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
